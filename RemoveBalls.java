@@ -29,5 +29,4 @@ public class RemoveBalls {
 	            return removeBalls(b - 1) + removeBalls(b - 2);
 	    }
 	}
-
 }
