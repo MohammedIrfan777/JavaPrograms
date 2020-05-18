@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class RemoveBalls {
 
 	public static void main(String[] args) {
-		try {
+	try {
 	        System.out.println("Enter no of balls ");
 	        Scanner scanner = new Scanner(System.in);
 	        int balls = scanner.nextInt();
@@ -16,7 +16,6 @@ public class RemoveBalls {
 	    }
 
 	}
-	
 	//recursive method to remove balls 
 	private static int removeBalls(int b) {
 	    switch (b) {
